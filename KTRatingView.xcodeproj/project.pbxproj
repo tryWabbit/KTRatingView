@@ -64,9 +64,8 @@
 			children = (
 				11AB1062229FB72A00F61B77 /* AppDelegate.swift */,
 				11AB1064229FB72A00F61B77 /* ViewController.swift */,
-				11AB1078229FB73A00F61B77 /* KTRatingView.swift */,
+				11FF3D11229FE00000CB6C2F /* New Group */,
 				11AB107E229FBC7600F61B77 /* UIColor+Colors.swift */,
-				11AB1077229FB73A00F61B77 /* KTRatingView.xib */,
 				11AB107C229FBA3A00F61B77 /* star.png */,
 				11AB1074229FB73100F61B77 /* Assets.xcassets */,
 				11AB1076229FB73A00F61B77 /* Main.storyboard */,
@@ -74,6 +73,15 @@
 				11AB106E229FB72B00F61B77 /* Info.plist */,
 			);
 			path = KTRatingView;
+			sourceTree = "<group>";
+		};
+		11FF3D11229FE00000CB6C2F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				11AB1078229FB73A00F61B77 /* KTRatingView.swift */,
+				11AB1077229FB73A00F61B77 /* KTRatingView.xib */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
