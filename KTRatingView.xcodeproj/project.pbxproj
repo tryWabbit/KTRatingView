@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1197D70822A4F5F3007ED9DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1197D70722A4F5F3007ED9DE /* LaunchScreen.storyboard */; };
-		1197D70E22A4F844007ED9DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1197D70D22A4F844007ED9DE /* Assets.xcassets */; };
+		1197D71222A4F8B2007ED9DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1197D71122A4F8B2007ED9DE /* Assets.xcassets */; };
 		11AB1063229FB72A00F61B77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1062229FB72A00F61B77 /* AppDelegate.swift */; };
 		11AB1065229FB72A00F61B77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1064229FB72A00F61B77 /* ViewController.swift */; };
 		11AB1079229FB73A00F61B77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11AB1076229FB73A00F61B77 /* Main.storyboard */; };
@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		1197D70722A4F5F3007ED9DE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1197D70D22A4F844007ED9DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Rating View\\/Rating View\\/Assets.xcassets"; sourceTree = "<group>"; };
+		1197D71122A4F8B2007ED9DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11AB105F229FB72A00F61B77 /* KTRatingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTRatingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11AB1062229FB72A00F61B77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11AB1064229FB72A00F61B77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,24 +64,24 @@
 			children = (
 				11AB1062229FB72A00F61B77 /* AppDelegate.swift */,
 				11AB1064229FB72A00F61B77 /* ViewController.swift */,
-				11FF3D11229FE00000CB6C2F /* New Group */,
+				11FF3D11229FE00000CB6C2F /* Source */,
 				11AB107E229FBC7600F61B77 /* UIColor+Colors.swift */,
 				11AB107C229FBA3A00F61B77 /* star.png */,
 				11AB1076229FB73A00F61B77 /* Main.storyboard */,
+				1197D71122A4F8B2007ED9DE /* Assets.xcassets */,
 				1197D70722A4F5F3007ED9DE /* LaunchScreen.storyboard */,
 				11AB106E229FB72B00F61B77 /* Info.plist */,
-				1197D70D22A4F844007ED9DE /* Assets.xcassets */,
 			);
 			path = KTRatingView;
 			sourceTree = "<group>";
 		};
-		11FF3D11229FE00000CB6C2F /* New Group */ = {
+		11FF3D11229FE00000CB6C2F /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				11AB1078229FB73A00F61B77 /* KTRatingView.swift */,
 				11AB1077229FB73A00F61B77 /* KTRatingView.xib */,
 			);
-			path = "New Group";
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +146,7 @@
 				11AB1079229FB73A00F61B77 /* Main.storyboard in Resources */,
 				1197D70822A4F5F3007ED9DE /* LaunchScreen.storyboard in Resources */,
 				11AB107A229FB73A00F61B77 /* KTRatingView.xib in Resources */,
-				1197D70E22A4F844007ED9DE /* Assets.xcassets in Resources */,
+				1197D71222A4F8B2007ED9DE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
